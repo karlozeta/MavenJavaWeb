@@ -56,7 +56,7 @@ public class GeneradorAleatorioController {
 		//log.debug("El log está usando: " + log.getClass().getCanonicalName());
 
 		// debug de log4j
-		logger.debug("El log está usando: "
+		logger.debug("El log está usando slf4j: "
 				+ logger.getClass().getCanonicalName());
 		
 		
