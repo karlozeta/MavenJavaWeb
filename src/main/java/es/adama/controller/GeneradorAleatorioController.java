@@ -46,7 +46,7 @@ public class GeneradorAleatorioController {
 	@Inject
 	private GeneradorAleatorio idGenerator;
 
-	@RequestMapping("/numero")
+	@RequestMapping("/numeroAleatorio")
 	public String muestraNuevoId(Model model) {		
 		//  Solo como ejemplo para mostrar las diferentes dependencias de logging
 		
