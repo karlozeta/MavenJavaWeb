@@ -14,7 +14,7 @@ public class GeneradorAleatorio {
 	
 	public int generaNumero() {
 		final RandomDataGenerator aRandomDataGenerator = new RandomDataGenerator();
-		return aRandomDataGenerator.nextInt(5, 10);			
+		return aRandomDataGenerator.nextInt(1, 10);			
 	}
 	
 	public String name() {
